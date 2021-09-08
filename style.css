@@ -1,0 +1,99 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+  background-color: #FEFBF3;
+  font-family: 'Open Sans', sans-serif;
+  font-size:  16px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: #9D9D9D;
+}
+
+h2 {
+  font-size: 24px;
+  color: #79B4B7;
+}
+
+a {
+  color: #E05D5D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-orange {
+  background-color: #E05D5D;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  background-color: black;
+  color: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin:  30px;
+}
+
+.list-inline {
+  list-style:  none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*// SM - Tablets*/
+@media (max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/*// XS - Phones*/
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+/*#intro p {
+  margin-bottom: 40px;
+}
+*/
